@@ -1,0 +1,11 @@
+Kohagen, Lepsik, Jungwirth parameters 
+MASS
+YC   40.08
+K+   39.10
+CL   35.45
+
+NONBON
+YC    1.495  0.12122000    ECCR2-Martinek18
+K+    1.769  0.10000000    ECCR-Kohagen14
+CL    2.300  0.11782000    ECCR2-Martinek18
+
