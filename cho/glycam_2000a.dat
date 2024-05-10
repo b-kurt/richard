@@ -1,0 +1,276 @@
+GLYCAM PARAMETERS (FOR AMBER 5.0, RESP 0.010), COPYRIGHT R.J.WOODS, CCRC 2000
+
+MASS
+AC     12.01     0.00        CT ALPHA ANOMERIC CARBON   (P94=PARM94)
+EC     12.01     0.00        CT BETA ANOMERIC CARBON
+OG     16.00     0.00        OS GLYCOSIDIC OXYGEN
+OL     16.00     0.00        OS RING OXYGEN FOR L- AND 1C4(D) SUGARS
+OH     16.00     0.00        OH HYDROXYL OXYGEN 
+OS     16.00     0.00        OS RING OXYGEN SUGARS
+I2     40.08     0.00        CALCIUM ION (2+)
+
+BOND
+AC-CT    310.00     1.527      P94 K CT-CT                       
+EC-CT    310.00     1.519      P94 K CT-CT                       
+AC-H2    340.00     1.090      P94 CT-H2
+EC-H2    340.00     1.090      P94 CT-H2
+C -HC    331.00     1.090      P91 CT-HC FOR FORMYL GROUPS
+C -EC    317.00     1.570      P91 C-CT AB INITIO 6-31G*
+EC-N     337.00     1.460      P94 K CT-N 
+AC-OS    320.00     1.416      AVG OF GAL MAN GLU L-ARA,K P94 CT-OS
+AC-OL    320.00     1.416      AVG OF GAL MAN GLU L-ARA,K P94 CT-OS
+EC-OS    320.00     1.425      AVG OF GAL GLU XYL,K P94 CT-OS
+EC-OL    320.00     1.425      AVG OF GAL GLU XYL,K P94 CT-OS
+CT-OL    320.00     1.410      P94 CT-OS
+AC-OG    320.00     1.405      AVG OF GAL MAN GLU L-ARA,K P94 CT-OS
+EC-OG    320.00     1.389      AVG OF GAL GLU XYL,K P94 CT-OS
+CT-OG    320.00     1.435      AVG OF MAN GLU GAL XYL,K P94 CT-OS
+AC-OH    320.00     1.396      AVG OF GAL MAN GLU L-ARA,K P94 CT-OS
+EC-OH    320.00     1.387      AVG OF GAL GLU XYL,K P94 CT-OS
+
+ANGL
+AC-CT-CT     40.00    111.80   P94 K CT-CT-CT
+EC-CT-CT     40.00    109.40   P94 K CT-CT-CT
+CT-AC-CT     40.00    109.50   P94 CT-CT-CT
+CT-EC-CT     40.00    109.50   P94 CT-CT-CT
+AC-CT-H1     50.00    109.50   P94 CT-CT-H1
+AC-CT-HC     50.00    109.50   P94 CT-CT-H1
+EC-CT-H1     50.00    109.50   P94 CT-CT-H1
+EC-CT-HC     50.00    109.50   P94 CT-CT-H1
+EC-CT-N      80.00    109.70   P91 ALA    JACS 94, 2657  
+AC-CT-N      80.00    109.70   P91 ALA    JACS 94, 2657  
+AC-CT-OH     50.00    109.50   P94 CT-CT-OH
+EC-CT-OH     50.00    109.50   P94 CT-CT-OH
+EC-C -O2     70.00    117.00   P94 CT-C -O2
+AC-CT-OS     50.00    109.50   P94 CT-CT-OS
+AC-CT-OL     50.00    109.50   P94 CT-CT-OS
+EC-CT-OS     50.00    109.50   P94 CT-CT-OS
+EC-CT-OL     50.00    109.50   P94 CT-CT-OS
+AC-CT-OG     50.00    109.50   P94 CT-CT-OS 
+EC-CT-OG     50.00    109.50   P94 CT-CT-OS
+C -AC-CT     63.00    111.10   P94 C -CT-CT 
+C -EC-CT     63.00    111.10   P94 C -CT-CT 
+C -AC-OL     63.00    113.00   P94 K C -CT-N  AB INITIO ANGLE
+C -EC-OL     63.00    113.00   P94 K C -CT-N  AB INITIO ANGLE
+C -AC-OG     63.00    113.00   P94 K C -CT-N  AB INITIO ANGLE
+C -EC-OG     63.00    113.00   P94 K C -CT-N  AB INITIO ANGLE
+CT-CT-OL     50.00    109.50   P94 CT-CT-OS 
+CT-CT-OG     50.00    109.50   P94 CT-CT-OS 
+CT-AC-H2     50.00    109.50   P94 CT-CT-H2
+CT-EC-H2     50.00    109.50   P94 CT-CT-H2
+CT-EC-N      80.00    109.70   P91 CT-CT-N  ALA    JAAC 94, 2657
+CT-AC-OG     50.00    109.50   P94 CT-CT-OS
+CT-EC-OG     50.00    109.50   P94 CT-CT-OS
+CT-AC-OH     50.00    109.50   P94 CT-CT-OS 
+CT-EC-OH     50.00    109.50   P94 CT-CT-OS 
+CT-AC-OS     50.00    110.50   P94 CT-CT-OS
+CT-AC-OL     50.00    110.50   P94 CT-CT-OS
+CT-EC-OS     50.00    109.50   P94 CT-CT-OS
+CT-EC-OL     50.00    109.50   P94 CT-CT-OS
+H2-EC-N      35.00    109.50   P91 H-CT-N
+H2-C -N      55.00    112.40   AVG K C-C=O, H-C-N FOR N-FORMYL
+H2-C -O      55.00    122.20   AVG K C-C=O, H-C-N FOR FORMYL
+H2-AC-OG     35.00    109.50   FROM FITTING TO DMM 
+H2-EC-OG     35.00    109.50   FROM FITTING TO DMM
+H2-AC-OH     35.00    109.50   FROM FITTING TO DMM     
+H2-EC-OH     35.00    109.50   FROM FITTING TO DMM     
+H2-AC-OS     35.00    109.50   FROM FITTING TO DMM 
+H2-AC-OL     35.00    109.50   FROM FITTING TO DMM 
+H2-EC-OS     35.00    109.50   FROM FITTING TO DMM               
+H2-EC-OL     35.00    109.50   FROM FITTING TO DMM               
+H1-CT-OL     35.00    109.50   FROM FITTING TO DMM             
+H1-CT-OG     35.00    109.50   FROM FITTING TO DMM             
+C -N -EC     50.00    121.90   P94 C -N -CT
+EC-N -H      30.00    118.04   P94 CT-N -H
+AC-OS-CT     60.00    113.50   AVG OF GAL MAN GLU, K P94 CT-OS-CT
+AC-OL-CT     60.00    113.50   AVG OF GAL MAN GLU, K P94 CT-OS-CT
+EC-OS-CT     60.00    111.90   AVG OF GAL GLU XYL, K P94 CT-OS-CT
+EC-OL-CT     60.00    111.90   AVG OF GAL GLU XYL, K P94 CT-OS-CT
+AC-OG-CT     60.00    113.80   AVG OF GAL MAN GLU, K P94 CT-OS-CT
+EC-OG-CT     60.00    114.70   AVG OF GAL GLU XYL, K P94 CT-OS-CT
+N -EC-OS    106.90    107.90   AVE X'TAL ASN-GLCNAC, K FROM FAMM
+N -EC-OL    106.90    107.90   AVE X'TAL ASN-GLCNAC, K FROM FAMM
+OG-AC-OS    110.70    112.00   AVG OF GAL MAN GLU, K FROM DMM
+OG-AC-OL    110.70    112.00   AVG OF GAL MAN GLU, K FROM DMM
+OG-EC-OS    110.70    107.60   AVG OF GAL GLU XYL, K FROM DMM
+OG-EC-OL    110.70    107.60   AVG OF GAL GLU XYL, K FROM DMM
+OH-AC-OS    110.70    111.60   AVG OF GAL MAN GLU, K FROM DMM
+OH-AC-OL    110.70    111.60   AVG OF GAL MAN GLU, K FROM DMM
+OH-EC-OS    110.70    107.20   AVG OF GAL GLU XYL, K FROM DMM
+OH-EC-OL    110.70    107.20   AVG OF GAL GLU XYL, K FROM DMM
+AC-OH-HO     55.00    108.50   P94 CT-OH-HO 
+EC-OH-HO     55.00    108.50   P94 CT-OH-HO
+OS-CT-C      63.00    112.36   (C -EC-OG) const., gaussian 94 angle (uronic H+) LCM
+O -C -EC     70.00    117.00   from (EC-C -O2) LCM 
+OH-C -EC     70.00    117.00   from (EC-C -O2) LCM 
+O2-C -OH     80.0     126.00   copied from parm96.dat ( AA GLU ) LCM
+
+
+DIHE                       
+X -CT-AC-X    9           1.40           0.00           3.  P94 X-CT-CT-X
+X -CT-EC-X    9           1.40           0.00           3.  P94 X-CT-CT-X
+X -CT-CT-X    9           1.40           0.00           3.  P94 X-CT-CT-X
+X -CT-OG-X    3           1.15           0.00           3.  P94 X-CT-OS-X
+X -AC-OS-X    3           1.15           0.00           3.  P94 X-CT-OS-X
+X -AC-OL-X    3           1.15           0.00           3.  P94 X-CT-OS-X
+X -EC-OS-X    3           1.15           0.00           3.  P94 X-CT-OS-X
+X -EC-OL-X    3           1.15           0.00           3.  P94 X-CT-OS-X
+X -CT-OS-X    3           1.15           0.00           3.  P94 X-CT-OS-X
+X -CT-OL-X    3           1.15           0.00           3.  P94 X-CT-OS-X
+X -C -N -X    4          10.00         180.00           2.  P94 X-C-N-X
+X -N -CT-X    1           0.00           0.00           1.  P94 X-N-CT-X
+H2-AC-OG-CT   1           0.00           0.00           3.  EXO-ANOMERIC ALPHA
+H2-EC-OG-CT   1           0.00           0.00           3.  EXO-ANOMERIC BETA
+C -EC-OG-CT   1           5.45           0.00          -1.  EXO-ANOMERIC
+              1           0.47           0.00          -2.  EFFECT ALPHA SIALIC ACID
+              1          -0.65           0.00           3.  C-C-O-C AB INITIO
+CT-AC-OG-CT   1           0.00           0.00           3.  EXO-ANOMERIC ALPHA
+CT-EC-OG-CT   1           0.00           0.00           3.  EXO-ANOMERIC BETA
+CT-OG-AC-OS   1           1.39         265.77          -1.  EXO-ANOMERIC
+              1           0.70         312.04          -2.  EFFECT ALPHA
+              1           0.91         347.72           3.  O-C-O-C
+CT-OG-AC-OL   1           1.39          94.64          -1.  EXO-ANOMERIC
+              1           0.70          48.01          -2.  EFFECT ALPHA (L and 1C4(D))
+              1           0.91          12.07           3.  O-C-O-C
+CT-OG-EC-OS   1           0.85         144.06          -1.  EXO-ANOMERIC
+              1           0.74         353.55          -2.  EFFECT BETA
+              1           0.97           6.43           3.  O-C-O-C
+CT-OG-EC-OL   1           0.85         216.10          -1.  EXO-ANOMERIC
+              1           0.74           6.72          -2.  EFFECT (BETA 4C1(L) and ALPHA 1C4(D))
+              1           0.97         353.73           3.  O-C-O-C
+CT-CT-OG-AC   1           0.00           0.            -3.  (psi alpha=beta)
+              1           0.00           0.            -2.  (psi alpha=beta)
+              1           1.35           0.             1.  (psi alpha=beta)
+H1-CT-OG-AC   1           0.00           0.             1.  (psi alpha=beta)
+CT-CT-OG-EC   1           0.00           0.            -3.  (psi beta=alpha)
+              1           0.00           0.            -2.  (psi beta=alpha)
+              1           1.35           0.             1.  (psi beta=alpha)
+H1-CT-OG-EC   1           0.00           0.             1.  (psi beta=alpha)
+AC-CT-OG-AC   1           0.00           0.            -3.  (psi alpha=beta)
+              1           0.00           0.            -2.  (psi alpha=beta)
+              1           1.35           0.             1.  (psi alpha=beta)
+AC-CT-OG-EC   1           0.00           0.            -3.  (psi alpha=beta)
+              1           0.00           0.            -2.  (psi alpha=beta)
+              1           1.35           0.             1.  (psi alpha=beta)
+EC-CT-OG-AC   1           0.00           0.            -3.  (psi alpha=beta)
+              1           0.00           0.            -2.  (psi alpha=beta)
+              1           1.35           0.             1.  (psi alpha=beta)
+EC-CT-OG-EC   1           0.00           0.            -3.  (psi alpha=beta)
+              1           0.00           0.            -2.  (psi alpha=beta)
+              1           1.35           0.             1.  (psi alpha=beta)
+OS-EC-N -H    1           0.00           0.00           1.  P91 X-N-CT-X
+OL-EC-N -H    1           0.00           0.00           1.  P91 X-N-CT-X
+CT-EC-N -H    1           0.00           0.00           1.  P91 X-N-CT-X
+H2-EC-N -H    1           0.00           0.00           1.  P91 X-N-CT-X
+CT-EC-N -C    1           0.0            0.0            1.  N-LINKED
+H2-EC-N -C    1           0.0            0.0            1.  N-LINKED
+OS-EC-N -C    1           0.64         341.97          -1.  N-LINKED
+              1           1.91           3.37          -2.  GLYCOSIDE
+              1          -0.87         173.13           3.  REVISED '97
+OL-EC-N -C    1           0.64          18.03          -1.  N-LINKED
+              1           1.91         356.63          -2.  GLYCOSIDE (L and 2C4(D))
+              1          -0.87         186.87           3.  REVISED '97
+C -N -CT-CT   1           0.50         180.0           -4.  P94 2-N-Acetyl
+              1           0.15         180.0           -3.  P94 CT-CT-N -C
+              1           0.00           0.00          -2.  
+              1           0.53           0.0            1.  P94
+C -N -CT-AC   1           0.50         180.0           -4.  P94 2-N-Acetyl
+              1           0.15         180.0           -3.  P94 CT-CT-N -C
+              1           0.00           0.00          -2.  
+              1           0.53           0.0            1.  P94
+C -N -CT-EC   1           0.50         180.0           -4.  P94 2-N-Acetyl
+              1           0.15         180.0           -3.  P94 CT-CT-N -C
+              1           0.00           0.00          -2.  
+              1           0.53           0.0            1.  P94
+CT-EC-C -O2   1           0.00           0.00           2.  AXIAL CO2-
+CT-EC-C -OH   1           0.00           0.00           2.  copied from (CT-EC-C -O2) LCM 
+OG-EC-C -O2   1           0.00           0.00           2.  AXIAL CO2-
+OG-EC-C -OH   1           0.00           0.00           2.  copied from (OG-EC-C -O2) LCM 
+OL-EC-C -O2   2           2.80         180.00           2.  AXIAL CO2- 
+OL-EC-C -OH   2           2.80         180.00           2.  copied from (OL-EC-C -O2) LCM  
+CT-EC-C -O    1           0.00           0.00           2.  copied from (CT-EC-C -O2) LCM 
+OG-EC-C -O    1           0.00           0.00           2.  copied from (OG-EC-C -O2) LCM 
+OL-EC-C -O    2           2.80         180.00           2.  copied from (OL-EC-C -O2) LCM 
+OG-CT-CT-CT   1          -0.27           0.00           1.  SCEE=1.0, SCNB=1.0 methylpropyl ether KNK
+OH-CT-CT-CT   1          -0.40           0.00           1.  SCEE=1.0, SCNB=1.0 Propanol KNK
+OL-CT-CT-CT   1          -0.27           0.00           1.  SCEE=1.0, SCNB=1.0 methylpropyl ether KNK
+OS-CT-CT-CT   1          -0.27           0.00           1.  SCEE=1.0, SCNB=1.0 methylpropyl ether KNK
+OG-CT-CT-OH   1          -0.67           0.00          -1.  SCEE=1.0, SCNB=1.0 Glucose KNK
+              1           0.50           0.00           2.  
+OH-CT-CT-OH   1          -0.67           0.00          -1.  SCEE=1.0, SCNB=1.0 Glucose KNK
+              1           0.50           0.00           2.  An Approximate Parameter
+OG-CT-CT-OL   1          -0.87           0.00           1.  SCEE=1.0, SCNB=1.0 6-O-methoxyglucose KNK
+OH-CT-CT-OL   1          -0.67           0.00          -1.  SCEE=1.0, SCNB=1.0 Glucose KNK
+              1           0.50           0.00           2.  
+OG-CT-CT-OS   1          -0.87           0.00           1.  SCEE=1.0, SCNB=1.0 6-O-methoxyglucose KNK
+OH-CT-CT-OS   1          -0.67           0.00          -1.  SCEE=1.0, SCNB=1.0 Glucose KNK
+              1           0.50           0.00           2.  
+OS-CT-CT-OS   1          -0.87           0.00           1.  SCEE=1.0, SCNB=1.0 6-O-methoxyglucose KNK
+OG-CT-AC-OH   1          -0.67           0.00          -1.  SCEE=1.0, SCNB=1.0 Glucose KNK
+              1           0.50           0.00           2.  
+OH-CT-AC-OH   1          -0.67           0.00          -1.  SCEE=1.0, SCNB=1.0 Glucose KNK
+              1           0.50           0.00           2.  An Approximate Parameter
+OG-CT-AC-OL   1          -0.87           0.00           1.  SCEE=1.0, SCNB=1.0 6-O-methoxyglucose KNK
+OH-CT-AC-OL   1          -0.67           0.00          -1.  SCEE=1.0, SCNB=1.0 Glucose KNK
+              1           0.50           0.00           2.  
+OG-CT-AC-OS   1          -0.87           0.00           1.  SCEE=1.0, SCNB=1.0 6-O-methoxyglucose KNK
+OH-CT-AC-OS   1          -0.67           0.00          -1.  SCEE=1.0, SCNB=1.0 Glucose KNK
+              1           0.50           0.00           2.  
+OG-CT-EC-OH   1          -0.67           0.00          -1.  SCEE=1.0, SCNB=1.0 Glucose KNK
+              1           0.50           0.00           2.  
+OH-CT-EC-OH   1          -0.67           0.00          -1.  SCEE=1.0, SCNB=1.0 Glucose KNK
+              1           0.50           0.00           2.  An Approximate Parameter
+OG-CT-EC-OL   1          -0.87           0.00           1.  SCEE=1.0, SCNB=1.0 6-O-methoxyglucose KNK
+OH-CT-EC-OL   1          -0.67           0.00          -1.  SCEE=1.0, SCNB=1.0 Glucose KNK
+              1           0.50           0.00           2.  
+OG-CT-EC-OS   1          -0.87           0.00           1.  SCEE=1.0, SCNB=1.0 6-O-methoxyglucose KNK
+OH-CT-EC-OS   1          -0.67           0.00          -1.  SCEE=1.0, SCNB=1.0 Glucose KNK
+              1           0.50           0.00           2.  
+AC-CT-OH-HO   3           0.50           0.00           3.  P94 X-CT-OH-X
+EC-CT-OH-HO   3           0.50           0.00           3.  P94 X-CT-OH-X
+CT-AC-OH-HO   1          -0.90           0.00          -1.  HO-OH-CT-CT Mannose
+              1           0.00           0.00          -2.  
+              1           0.50           0.00           3.                 
+CT-EC-OH-HO   1          -0.90           0.00          -1.  HO-OH-CT-CT Mannose
+              1           0.00           0.00          -2.  
+              1           0.50           0.00           3.                 
+H2-AC-OH-HO   1           0.50           0.00           3.  P94 X-CT-OH-X
+H2-EC-OH-HO   1           0.50           0.00           3.  P94 X-CT-OH-X
+OS-AC-OH-HO   3           0.50           0.00           3.  P94 X-CT-OH-X
+OL-AC-OH-HO   3           0.50           0.00           3.  P94 X-CT-OH-X
+OS-EC-OH-HO   3           0.50           0.00           3.  P94 X-CT-OH-X
+OL-EC-OH-HO   3           0.50           0.00           3.  P94 X-CT-OH-X
+CT-CT-C -O2   1           0.00           0.00          -1.  uronic H+ zero'd non-(Ox-xx-xx-Ox) LCM
+CT-CT-C -O2   1           0.00           0.00          -2.  uronic H+ zero'd non-(Ox-xx-xx-Ox) LCM
+CT-CT-C -O2   1           0.00           0.00           3.  uronic H+ zero'd non-(Ox-xx-xx-Ox) LCM
+H1-CT-C -O2   1           0.00           0.00          -1.  uronic H+ zero'd non-(Ox-xx-xx-Ox) LCM
+H1-CT-C -O2   1           0.00           0.00          -2.  uronic H+ zero'd non-(Ox-xx-xx-Ox) LCM
+H1-CT-C -O2   1           0.00           0.00           3.  uronic H+ zero'd non-(Ox-xx-xx-Ox) LCM
+OS-CT-C -O2   2           0.00           0.00          -1.  uronic H+  LCM
+OS-CT-C -O2   2           1.40         190.00          -2.  uronic H+  LCM
+OS-CT-C -O2   2           0.09         160.00          -3.  uronic H+  LCM
+OS-CT-C -O2   2           0.13         161.00           4.  uronic H+  LCM
+
+IMPR
+X -X -N -H          5.25         180.          2.
+X -X -C -O          10.5         180.          2.
+X -O2-C -O2         10.5         180.          2.
+X -O2-C -OH         10.5         180.          2.   
+
+HBON
+  H   OG     7557.00   2385.00
+  H   OL     7557.00   2385.00
+  HW  OG     7557.00   2385.00
+  HW  OL     7557.00   2385.00
+  HO  OG     7557.00   2385.00
+  HO  OL     7557.00   2385.00
+
+NONB
+  AC       1.9080     0.0860
+  EC       1.9080     0.0860
+  I2       1.6000     0.1000
+  OG       1.8310     0.1400
+  OH       1.9610     0.1400
+  OL       1.8310     0.1400
+  OS       1.8310     0.1400
+

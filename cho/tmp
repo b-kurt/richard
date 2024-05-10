@@ -1,0 +1,26 @@
+2ma.prep:2-[ALPHA-D-MANNO-] non-terminal residue, hf/6-31g* RESP0.010 
+346mb.prep:3,4,6-[B-D-MANNO-] branched residue, hf/6-31g* RESP0.010
+34nn.prep:3,4-[2-ACETAMIDO-B-D-GLUCO-] branch res (N-linkages) hf/6-31g* RESP0.010      
+34no.prep:4-[2-ACETAMIDO-B-D-GLUCO-] non-terminal (O-linkages) hf/6-31g* RESP0.010
+36ma.prep:3,6-[ALPHA-D-MANNO-] branched residue, hf/6-31g* RESP0.010
+36mb.prep:3,6-[B-D-MANNO-] branched residue, hf/6-31g* RESP0.010
+3lb.prep:3-[B-D-GALACTO-] non-terminal residue, hf/6-31g* RESP0.010
+3lna.prep:3-[a-D-GalNAc-] non-terminal residue, RHF/6-31G(d) RESP0.010
+3ma.prep:3-[ALPHA-D-MANNO-] non-terminal residue, hf/6-31g* RESP 010
+3mb.prep:3-[B-D-MANNO-] non-terminal residue, hf/6-31g* RESP0.010                           
+3no.prep:3-[2-ACETAMIDO-B-D-GLUCO-] non-terminal (O-linkages) hf/6-31g* RESP0.010
+46nn.prep:4,6-[2-ACETAMIDO-B-D-GLUCO-] branch res (N-linkages) hf/6-31g* RESP0.010      
+46no.prep:4,6-[2-ACETAMIDO-B-D-GLUCO-] non-terminal (O-linkages) hf/6-31g* RESP0.010
+4nn.prep:4-[2-ACETAMIDO-B-D-GLUCO-] non-terminal (N-linkages) hf/6-31g* RESP0.010      
+4no.prep:4-[2-ACETAMIDO-B-D-GLUCO-] non-terminal (O-linkages) hf/6-31g* RESP0.010
+6ma.prep:6-[alpha-D-manno] non-terminal residue, hf/6-31g* RESP0.010
+6mb.prep:6-[B-D-MANNO-] non-terminal residue, hf/6-31g* RESP0.010                           
+6no.prep:6-[2-ACETAMIDO-B-D-GLUCO]- non-terminal (O-linkages) hf/6-31g* RESP0.010
+fa.prep:A-(AXIAL)-L-FUCO- terminal residue, hf/6-31g* RESP0.010
+la.prep:A-D-GALACTO- terminal residue, hf/6-31g* RESP0.010                             
+lb.prep:B-D-GALACTO- terminal residue, hf/6-31g* RESP 0.010
+ma.prep:A-D-MANNO- terminal residue, hf/6-31g* RESP 010 
+mb.prep:B-D-MANNO- terminal residue, hf/6-31g* RESP0.010                               
+nn.prep:2-ACETAMIDO-B-D-GLUCO- terminal (N-linkages) hf/6-31g* RESP0.010      
+no.prep:2-ACETAMIDO-B-D-GLUCO- terminal res (O-linkages) hf/6-31g* RESP0.010
+ome.prep:o-methyl for aglycon RESP 0.010 (calc. from galnac-a-ome)

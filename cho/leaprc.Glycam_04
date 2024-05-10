@@ -1,0 +1,39 @@
+# ----- leaprc for loading the Glycam_04 force field
+#
+#       load atom type hybridizations
+#
+addAtomTypes {
+        { "C"   "C" "sp2" }
+        { "CG"  "C" "sp3" }
+        { "CY"  "C" "sp3" }
+        { "H"   "H" "sp3" }
+        { "H1"  "H" "sp3" }
+        { "H2"  "H" "sp3" }
+        { "HC"  "H" "sp3" }
+        { "HO"  "H" "sp3" }
+        { "HW"  "H" "sp3" }
+	{ "N"   "N" "sp2" }
+        { "OH"  "O" "sp3" }
+        { "OS"  "O" "sp3" }
+        { "O"   "O" "sp2" }
+        { "O2"  "O" "sp2" }
+        { "OW"  "O" "sp3" }
+}
+#
+#       load the main paramter set
+#
+glycam_04 = loadamberparams /usr/local/programs/glycam04/Glycam_04.dat
+#
+#       load all prep files for polysaccharides
+#
+loadamberprep /usr/local/programs/glycam04/Glycam_04.prep
+#
+#
+#       assumes most users want to use tip3p as the explicit solvent model
+#       but this can easily switched by the following commands in leap:
+#       WAT = TP5
+#       loadamberparams frcmod.tip5p
+#
+loadOff solvents.lib
+HOH = TP3
+WAT = TP3

@@ -1,0 +1,47 @@
+Date sent:      	Wed, 24 Mar 2004 11:37:56 -0800 (PST)
+From:           	"Karl N. Kirschner" <crux5_11@yahoo.com>
+Subject:        	AMBER: Glycam04
+To:             	amber@scripps.edu
+Send reply to:  	amber@scripps.edu
+
+Hi everyone,
+  The new version of the Glycam parameter file set for
+carbohydrate modeling is available on the AMBER8
+distribution and at our web site
+(http://glycam.ccrc.uga.edu).
+  There are two sets of parameters: one without extra
+points (aka electron lone pairs), and one with extra
+points.  These files include a leaprc (leaprc.Glycam),
+carbohydrate prep files with ensemble average charge
+set (Glycam04.prep), and the parameter file
+(Glycam04.dat).  The files associated with extra
+points have "EP" in the file name.
+  At all times, our website will contain the most
+recent version of the Glycam parameter file set.  Over
+time, we will be adding additional prep residues and
+modify the other files as the need arises.
+  Please feel free to comment about this parameter set
+and make suggestions about how it may be improved in
+the future.  Also, please comment on any bugs that you
+might find when using these files.  As pointed out
+before, please read the AMBER8 manual before
+implementing Glycam04.
+
+Happy modeling,
+Karl
+
+=====
+------------------------------------------------
+Karl Nicholas Kirschner, Ph.D.
+National Institute of Health Fellow
+Complex Carbohydrate Research Center
+University of Georgia - Athens, Ga USA 
+------------------------------------------------
+
+__________________________________
+Do you Yahoo!?
+Yahoo! Finance Tax Center - File online. File on time.
+http://taxes.yahoo.com/filing.html
+-----------------------------------------------------------------------
+The AMBER Mail Reflector To post, send mail to amber@scripps.edu To
+unsubscribe, send "unsubscribe amber" to majordomo@scripps.edu
