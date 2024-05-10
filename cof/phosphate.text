@@ -1,0 +1,24 @@
+
+Guide to using polyphosphate parameters:
+
+We have recently parameterized di- and tri- phosphate tails for use with the
+AMBER95 force field.  The parameters are based on reproduction of RHF/6-31+G*
+potential surface.  Methyldiphosphate and methyltriphosphate were used as model
+compounds.  To most accurately mode the behavior of the polyphosphates an
+additional atom type for the terminal anionic oxygens, O3, was added.  The RESP
+methodology was used to assign partial charges.
+
+ADP.prep, ATP.prep
+- AMBER6 prep files for ADP and ATP.  RESP partial charges are given in the
+  last column.
+- Atom names (ie: C4*, PB, O3G) must match the atom names as given in the pdb.
+
+frcmod.phosphate
+- Need to copy the leaprc file to your working directory and modify it to
+  contain the O3 atom type.
+
+        { "O"   "O" "sp2" }
+        { "O3"  "O" "sp2" }
+        { "O2"  "O" "sp2" }
+        { "OW"  "O" "sp3" }
+
