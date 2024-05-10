@@ -1,0 +1,151 @@
+
+<HTML>
+<title>AMBER Parameter Database</title>
+<body BGCOLOR="ffffff">
+
+<h2>Contributors</h2>
+<a href="http://biop.ox.ac.uk">M. Baaden</a>*, G. Wipff, F. Berny<br>
+*Laboratory of Molecular Biophysics<br>
+University of Oxford<br>
+
+<h2>References</h2>
+
+[2000.4]<br>
+
+     M. Baaden, G. Wipff, M. R. Yaftian, M. Burgard and D. Matt;<br>
+     <i>J. chem. Soc., Perkin Trans. 2.</i> <b>2000</b>,1315<br>
+     <b>Cation coordination by calix{4}arenes bearing amide and/or
+     phosphine oxide pendant groups: how many arms are needed to bind
+     Li+ vs Na+ ? A combined NMR and molecular dynamics study.
+</b><p>
+
+[2000.6]<br>
+
+     M. Baaden, F. Berny, G. Wipff and C. Madic<br>
+     <i>J. Phys. Chem. A</i><b> 2000</b>,<i>104</i>,7659<br>
+     <b>A molecular dynamics
+     and quantum mechanics study of M3+ lanthanide cation solvation by
+     acetonitrile: the role of cation size, counterions and
+     polarization effects investigated.
+</b><p>
+
+[2001.2]<br>
+
+     M. Baaden, M. Burgard, C. Boehme and G. Wipff<br>
+     <i>Phys. Chem. Chem. Phys.</i><b> 2001 </b>,<i>3</i>,
+     1317<br>
+     <b>Lanthanide cation
+     binding to a phosphoryl-calix{4}arene: the importance of solvent
+     and counterions investigated by molecular dynamics and quantum
+     mechanical simulations</b> <p>
+
+[2001.3]<br>
+
+     M. Baaden, M. Burgard, and G. Wipff<br>
+     <i> J. Phys. Chem. B</i> <b>2001</b>,<i>105</i>, 11131<br>
+     <b>TBP at the water - oil
+     interface: the effect of TBP concentration and water acidity
+     investigated by molecular dynamics simulations</b><p>
+
+<h1>Comments</h1>
+
+No responsibility is assumed for any errors (though should be correct).
+Check charges carefully prior to using the parameters.
+
+<pre>
+Amber parameters and input files
+================================
+
+Marc Baaden
+
+1. Prep files
+=============
+
+1.1. Ions
+---------
+
+Filename               PDBS                    Comment
+...................... ....................... ...................... 
+H3O.bin                H3O+.pdb                Hydronium (+1)
+Eu3+.bin               EU3+.pdb                Europium (3+)
+Yb3+.bin               YB3+.pdb                Ytterbium (3+)
+La3+.bin               La3+.pdb                Lanthanum (3+)
+NO3.bin                NO3-.pdb                Nitrate (-)
+PCL.bin                PCL-.pdb                Perchlorate (-)
+TFL.bin                TFL-.pdb                Triflate (-)
+
+1.2. Organic Molecules
+----------------------
+
+Filename               PDBS                    Comment
+...................... ....................... ...................... 
+ACN.bin                HNO3.pdb                Nitric acid
+CA1.bin                TETA.pdb                Scaffold for
+                                               calixarenes
+CON.bin                DPDA.pdb,DPPM.pdb       Calix-cone part
+DPP.bin                DPDA.pdb,DPPM.pdb       diphenylphosphineoxide
+                                               arm
+TBU.bin                DPDA.pdb,DPPM.pdb       tert-butyl-unit
+AMI.bin                TETA.pdb,DPDA.pdb       Amide moiety for
+                                               calixarenes
+PHO.bin                1tbp.pdb                Neutral PO from TBP
+POP.bin                tbph+.pdb               Protonated POH from
+                                               TBPH+ (+1)
+OBU.bin                1tbp.pdb,tbph+.pdb      O-butyl moiety of TBP
+
+2. PDB files
+============
+
+2.1. Ions
+---------
+
+Filename      residues      reference     charge        description
+............. ............. ............. ............. ............. 
+H3O+.pdb      H3O           [2001.3]      +1            Hydronium ion
+EU3+.pdb      M             [2000.6]      +3            Europium
+YB3+.pdb      M             [2000.6]      +3            Ytterbium
+NO3-.pdb      NO3           [2001.3]      -1            Nitrate
+PCL-.pdb      PCL           [2000.6]      -1            Perchlorate
+TFL-.pdb      TFL           [2000.6]      -1            Triflate
+
+2.2. Organic Molecules
+----------------------
+
+Filename      residues      reference     charge        description
+............. ............. ............. ............. ............. 
+HNO3.pdb      ACN           [2001.3]      0             Nitric acid
+1tbp.pdb      PHO, OBU      [2001.3]      0             tri-n-butyl-phosphate
+tbph+.pdb     POP, OBU      [2001.3]      +1            tri-n-butyl-phosphate
+DPPM.pdb      CON, DPP, TBU [2000.4][2001.2] 0          tetraphosphineoxide
+                                                        calix[4]
+DPDA.pdb      CON, DPP, TBU [2000.4]      0             di-phosphineoxide-diamide
+                                                        calix[4]
+
+3. Errata
+=========
+
+In [2001.3] there is an error concerning the TBP and TBPH+ charges.
+The Second CT in OS-CT-CT-.. has to bear a +0.06 charge and not a
+-0.06 one.
+
+In [2000.4] there are two errors concerning the charges. One for the
+amide fragment, where the alpha amide carbon is not charged -0.323 but
++0.323. One for the phosphine-oxide, where the bottom HA is indicated
+as 0.0122 and should be 0.122 (these have been corrected in the 
+downloadable files here).
+
+</pre>
+<br>
+<hr>
+<center>
+[ <a href="../index.html">APD Home</a> ] [ <a href="../submit.html">Submit Parameters</a> ] [ <a href="http://www.amber.ucsf.edu/amber/amber.html">Amber Home</a> ] [ <a href="http://amber.ch.ic.ac.uk/amber.html">UK Mirror</a> ] [ <a href="http://pharmacy.man.ac.uk">Pharmacy Home</a> ] [ <a href="mailto:r.a.bryce@man.ac.uk">Contact</a> ]
+</center>
+
+<hr>
+Last modified 
+Thu Mar 14 11:48:41 GMT 2002
+<br>
+
+
+</HTML>
+

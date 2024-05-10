@@ -1,0 +1,24 @@
+
+Dear Richard,
+
+Thanks for putting the parameters on the website. Looks good.
+I noticed another minor glitch in the published charges, which
+is ok in the input files, so if you could add the following to
+the errata, please:
+
+In [2000.4] there are two errors concerning the charges. One for the
+amide fragment, where the alpha amide carbon is not charged -0.323 but
++0.323. One for the phosphine-oxide, where the bottom HA is indicated
+as 0.0122 and should be 0.122.
+
+More importantly there is a (small) error in the charges in PREPAMI.DAT,
+so I attach a corrected version.
+
+Another remark concerning the website: the third lanthanide cation is
+Ytterbium Yb3+ and not Yttrium Y3+.
+
+All the best,
+  Marc
+
+
+

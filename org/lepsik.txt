@@ -1,0 +1,42 @@
+
+Dear Dr. Bryce,
+during my PhD research I concentrated on MD simulations with AMBER 7 on 
+HIV protease and its inhibitors. I would like to contribute parameters 
+for all moieties of two clinically used inhibitors, saquinavir (SQV) and
+indinavir (IDV).
+
+
+PREPs: as attachment, P? means standard nomenclature of moieties
+
+FRCMODs: attached in the following e-mail
+
+Citation:
+
+*Lepaík M*, Kr(í~ Z, Havlas Z. Efficiency of a second-generation HIV-1 
+protease inhibitor studied by molecular dynamics and calculations of 
+absolute binding free energies. *Proteins* 2004;57:279-293.
+
+Comments:
+
+The parameters were taken from gaff force field for use with parm99 
+AMBER protein force field. Crystal geometries of PR-bound inhibitors 
+were used. Single conformation fitting to HF/6-31G* ESP was applied.
+
+
+----
+I would be grateful if you could add these parameters to the AMBER
+database.
+
+Yours sincerely,
+
+Martin Lepsik
+
+		 
+------------------
+Martin Lepsik, Ph.D.
+Center for Complex Molecular Systems and Biomolecules,
+Institute of Organic Chemistry & Biochemistry, Czech Rep.
+Flemingovo nam. 2, 166 10, Praha 6
+phone: +420-220 410 318
+e-mail:lepsik@uochb.cas.cz
+

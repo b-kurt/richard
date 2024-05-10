@@ -1,0 +1,38 @@
+#PVP forcefield corrections
+
+MASS
+c5 12.010        0.878               Sp3 C
+
+BOND
+c5-n   328.579  1.462       HF/6-31G* AVG
+c5-h1  335.9    1.084       HF/6-31G* AVG FC from c3
+c5-c   318.693  1.518       HF/6-31G* AVG
+c5-c5  305.796  1.532       HF/6-31G* AVG
+c5-hc  337.3    1.084       HF/6-31G* AVG FC from c3
+
+ANGLE 
+h1-c5-h1   39.837     107.743   HF/6-31G* AVG
+hc-c5-hc   39.841     107.920   HF/6-31G* AVG
+n-c5-h1    49.498     110.727   HF/6-31G* AVG
+c5-c5-hc   46.198     111.412   HF/6-31G* AVG
+c5-n-c3    61.506     121.583   HF/6-31G* AVG
+c-c5-h1    47.091     109.040   HF/6-31G* AVG
+c-n-c5     66.190     112.974   HF/6-31G* AVG
+c5-c5-c5   65.572     103.212   HF/6-31G* AVG
+c5-c-o     67.024     125.560   HF/6-31G* AVG
+c5-c5-c    65.585     104.113   HF/6-31G* AVG
+c5-c5-h1   45.922     112.757   HF/6-31G* AVG
+c5-c5-n    68.644     103.305   HF/6-31G* AVG
+c5-c-n     69.709     108.198   HF/6-31G* AVG
+
+DIHE
+X -c -c5-X    6    0.000        15.000           2.000      guess
+X -c5-c5-X    9    1.400         0.000           3.000      same as c3
+X -c5-n -X    6    0.000         0.000           2.000      same as c3
+
+IMPROPER
+c-c5-n-c3         1.5          180.          2.           same as X -X -N -CG
+
+NONB
+c5          1.9080  0.1094      same as c3 OPLS
+

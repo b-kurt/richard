@@ -1,0 +1,21 @@
+remark goes here
+MASS
+
+BOND
+
+ANGLE
+n3-c3-ca   66.567     110.420   Calculated with empirical approach
+h1-c3-ca   50.000     109.500   same as ca-c3-hc
+n -c3-ca   66.180     112.065   Calculated with empirical approach
+
+DIHE
+
+IMPROPER
+ca-h4-ca-nb         1.1          180.0         2.0          Using default value
+ca-ca-ca-ha         1.1          180.0         2.0          Using default value
+
+NONBON
+
+
+
+

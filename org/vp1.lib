@@ -1,0 +1,136 @@
+!!index array s
+ "VP
+!entry.VP1.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl c
+ "C3" "c5" 0 1 131072 1 6 -0.01
+ "C2" "c5" 0 1 131072 2 6 -0.07
+ "C1" "c" 0 1 131072 3 6 0.47
+ "O" "o" 0 1 131072 4 8 -0.56
+ "C4" "c5" 0 1 131072 5 6 -0.01
+ "N" "n" 0 1 131072 6 7 -0.07
+ "CA" "c3" 0 1 131072 7 6 0.00
+ "HA1" "h1" 0 1 131072 8 1 0.03
+ "CB" "c3" 0 1 131072 9 6 -0.05
+ "HB2" "hc" 0 1 131072 10 1 0.05
+ "HB1" "hc" 0 1 131072 11 1 0.05
+ "H31" "hc" 0 1 131072 12 1 0.01
+ "H32" "hc" 0 1 131072 13 1 0.01
+ "H22" "h1" 0 1 131072 14 1 0.04
+ "H21" "h1" 0 1 131072 15 1 0.04
+ "H42" "h1" 0 1 131072 16 1 0.02
+ "H41" "h1" 0 1 131072 17 1 0.02
+!entry.VP1.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pc
+ "C3" "c5" 0 -1 0
+ "C2" "c5" 0 -1 0
+ "C1" "c" 0 -1 0
+ "O" "o" 0 -1 0
+ "C4" "c5" 0 -1 0
+ "N" "n" 0 -1 0
+ "CA" "c3" 0 -1 0
+ "HA1" "h1" 0 -1 0
+ "CB" "c3" 0 -1 0
+ "HB2" "hc" 0 -1 0
+ "HB1" "hc" 0 -1 0
+ "H31" "hc" 0 -1 0
+ "H32" "hc" 0 -1 0
+ "H22" "h1" 0 -1 0
+ "H21" "h1" 0 -1 0
+ "H42" "h1" 0 -1 0
+ "H41" "h1" 0 -1 0
+!entry.VP1.unit.boundbox array d
+ -1.0000
+ 0
+ 0
+ 0
+ 0
+!entry.VP1.unit.childsequence single i
+
+!entry.VP1.unit.connect array i
+
+
+!entry.VP1.unit.connectivity table  int atom1x  int atom2x  int fla
+ 1 5
+ 1 2
+ 1 12
+ 1 13
+ 2 3
+ 2 15
+ 2 14
+ 3 4
+ 3 6
+ 5 6
+ 5 16
+ 5 17
+ 6 7
+ 7 9
+ 7 8
+ 9 11
+ 9 10
+!entry.VP1.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belo
+ "U" 0 "R"
+ "R" 1 "A"
+ "R" 1 "A"
+ "R" 1 "A"
+ "R" 1 "A"
+ "R" 1 "A"
+ "R" 1 "A"
+ "R" 1 "A"
+ "R" 1 "A"
+ "R" 1 "A"
+ "R" 1 "A" 
+ "R" 1 "A" 
+ "R" 1 "A" 
+ "R" 1 "A" 
+ "R" 1 "A" 
+ "R" 1 "A" 
+ "R" 1 "A" 
+ "R" 1 "A" 
+!entry.VP1.unit.name single s
+ "VP
+!entry.VP1.unit.positions table  dbl x  dbl y  dbl
+ 4.029000 -0.901000 1.7090
+ 3.417000 -0.477000 3.0410
+ 1.914000 -0.676000 2.8770
+ 1.055000 -0.433000 3.7390
+ 2.848000 -1.343000 0.8190
+ 1.632000 -1.127000 1.5830
+ 0.382000 -1.762000 1.2330
+ -0.366000 -1.454000 2.0290
+ -0.142000 -1.307000 -0.1400
+ 0.599000 -1.579000 -0.9340
+ -1.098000 -1.860000 -0.3490
+ 4.745000 -1.748000 1.8460
+ 4.580000 -0.056000 1.2320
+ 3.629000 0.592000 3.2820
+ 3.777000 -1.111000 3.8890
+ 2.800000 -0.725000 -0.1200
+ 2.956000 -2.422000 0.5240
+!entry.VP1.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c
+ 7 9 0 0 0
+!entry.VP1.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagin
+ "VP1" 1 18 1 "p"
+!entry.VP1.unit.residuesPdbSequenceNumber array i
+
+!entry.VP1.unit.solventcap array d
+ -1.0000
+ 0
+ 0
+ 0
+ 0
+!entry.VP1.unit.velocities table  dbl x  dbl y  dbl
+ 0.0 0.0 0
+ 0.0 0.0 0
+ 0.0 0.0 0
+ 0.0 0.0 0
+ 0.0 0.0 0
+ 0.0 0.0 0
+ 0.0 0.0 0
+ 0.0 0.0 0
+ 0.0 0.0 0
+ 0.0 0.0 0
+ 0.0 0.0 0
+ 0.0 0.0 0
+ 0.0 0.0 0
+ 0.0 0.0 0
+ 0.0 0.0 0
+ 0.0 0.0 0
+ 0.0 0.0 0
