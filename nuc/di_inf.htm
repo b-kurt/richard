@@ -1,0 +1,54 @@
+
+<HTML>
+<title>AMBER Parameter Database</title>
+<body BGCOLOR="ffffff">
+
+<h2>Contributors</h2>
+	<a href="http://www.uochb.cz/web/structure/430.html?do%5bloadData%5d=1&itemKey=en_40">
+F. Lankas</a><br>
+Institute of Organic Chemistry and Biochemistry <br>Flemingovo nam. 2<br>
+166 10 Praha 6<br>
+Czech Republic<br>
+
+
+<h2>Reference</h2>
+F. Lankas, T.E. Cheatham III, N. Spackova, P. Hobza, J. Langowski, J. Sponer<br>
+<i>Biophys. J.</i> <b>2002</b> 82:2592-2609<br>
+<b>
+Critical effect of the N2 amino group on structure, dynamics, and elasticity
+of DNA polypurine tracts
+</b><br>
+Unrestrained 5-20-ns explicit-solvent molecular dynamics simulations using the Cornell et al. force field have been carried out for d[GCG(N)11GCG]2 (N, purine base) considering guanine·cytosine (G·C), adenine·thymine (A·T), inosine·5-methyl-cytosine (I·mC), and 2-amino-adenine·thymine (D·T) basepairs. The simulations unambiguously show that the structure and elasticity of N-tracts is primarily determined by the presence of the aminogroup in the minor groove. Simulated A-, I-, and AI-tracts show almost identical structures, with high propeller twist and minor groove narrowing. G- and D-tracts have small propeller twisting and are partly shifted toward the A-form. The elastic properties also differ between the two groups. The sequence-dependent electrostatic component of base stacking seems to play a minor role. Our conclusions are entirely consistent with available experimental data. Nevertheless, the propeller twist and helical twist in the simulated A-tract appear to be underestimated compared to crystallographic studies. To obtain further insight into the possible force field deficiencies, additional multiple simulations have been made for d(A)10, systematically comparing four major force fields currently used in DNA simulations and utilizing B and A-DNA forms as the starting structure. This comparison shows that the conclusions of the present work are not influenced by the force field choice.
+<p>
+
+<h1>Comments</h1>
+This is a contributed parameter set for D-INOSINE<br>
+with 5'-phosphate group and 3'-O(minus) group,<br>
+to be used with the AMBER parmbsc0 force field.<p>
+
+The following parameters were missing in the parmbsc0 force field:<br>
+CA-H5 corresponding to the bond C2-H2<br>
+NA-CA-H5 corresponding to the angle N1-C2-H2<br>
+H5-CA-NC corresponding to the angle N3-C2-H2<p>
+
+They were replaced by analogous parmbsc0 parameters:<br>
+CQ-H5 in analogy with the adenine bond C2-H2<br>
+NC-CQ-H5 in analogy with the adenine angle N1-C2-H2<br>
+NC-CQ-H5 in analogy with the adenine angle N3-C2-H<p>
+The charges were computed using a standard RESP procedure.<br>
+
+The parameters were obtained by Filip Lankas and Tomas Drsata.<br>
+<br>
+<hr>
+<center>
+[ <a href="../index.html">APD Home</a> ] [ <a href="../submit.html">Submit Parameters</a> ] [ <a href="http://www.amber.ucsf.edu/amber/amber.html">Amber Home</a> ] [ <a href="http://amber.ch.ic.ac.uk/amber.html">UK Mirror</a> ] [ <a href="http://pharmacy.man.ac.uk">Pharmacy Home</a> ] [ <a href="mailto:r.a.bryce@man.ac.uk">Contact</a> ]
+</center>
+
+<hr>
+Last modified 
+17 Sep 2012
+<br>
+
+
+</HTML>
+

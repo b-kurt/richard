@@ -1,0 +1,13 @@
+GDP-Mannose
+
+GUA      0gua.dat
+PYR      0pyr.dat
+MA       0ma.dat
+
+DU
+    1    1    1    1    1
+gdp-mannose
+O   0    0    1    3    0
+GUA 2PYR 2MA  2
+
+QUIT

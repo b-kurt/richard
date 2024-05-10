@@ -1,0 +1,8 @@
+This is the additional parameter set for inosine
+BOND
+CA-H5  367.0    1.080    from adenine
+
+ANGLE
+NA-CA-H5    50.0      115.45    from adenine
+H5-CA-NC    50.0      115.45    from adenine
+

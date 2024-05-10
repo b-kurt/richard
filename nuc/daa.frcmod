@@ -1,0 +1,8 @@
+This is the additional parameter set for 2-amino-adenosine
+ANGLE
+CA-NC-CA    70.0      118.60    from adenine
+NC-CA-NC    70.0      123.30    from guanine
+
+IMPR
+NC-NC-CA-N2         1.1          180.          2.    from guanine
+

@@ -1,0 +1,71 @@
+
+<HTML>
+<title>AMBER Parameter Database</title>
+<body BGCOLOR="ffffff">
+
+<h2>Contributors</h2>
+<a href="http://www.cermav.cnrs.fr/home_pages/imberty/imberty_GB.html">Anne Imberty</a>, P.Petrova, J.Koca<br>
+Centre de Recherches sur les Macromolecules Vegetales, CNRS<br>
+
+<h2>Reference</h2>
+
+<a name="10">Petrova P, Koca J, Imberty A<br>
+<i>J.Am.Chem.Soc.</i> <b>1999</b>,<i>121</i>,5535<br>
+<b>Potential energy hypersurfaces of nucleotide sugars: Ab initio calculations, force-field parametrization, and exploration of the flexibility</b></br>
+Glycosyl esters of nucleoside di- or monophosphates, generally referred to as "sugar nucleotides", serve as a sugar donor during the
+biosynthesis of oligo- and polysaccharides. Therefore, they are of primary importance in carbohydrate metabolism in the living world.
+Not only the molecules themselves but especially their complexes with proteins are of interest in structural glycobiology. For
+computational studies on these molecules, it is necessary to have access to empirical methods with appropriate force field parametrization.
+In this work, we propose a set of parameters, developed using ab initio calculations with the 6-31G* basis set at the SCF level on model
+compounds, for the commonly used AMBER force field. By implementation of the new parameter set together with the CICADA
+conformational search program, we have obtained a semiquantitative description of conformational space, showing that nucleotide sugars
+can adopt several conformational families. The majority of them exhibit a "folded" rather than an "extended" geometry due to frequent
+intramolecular hydrogen bonds and "stacking" interactions between the base and the six-membered sugar ring. For the sake of comparison,
+two molecular dynamics simulations were run in an explicit water environment. The first simulation (3 ns) started with the semi-extended
+X-ray geometry and displayed major variations of all torsional angles, allowing for the visit of three conformational families. The second
+simulation (5 ns) started with the folded global minimum from the CICADA search. After about 3ns, a transition for the ribose pucker
+yielded to the visit of a more extended conformational family. Experimental results show that in crystalline state, or in
+protein/carbohydrate complexes, extended conformations which are stabilized by the interaction with surrounding molecules or with the
+protein surface are more frequent.
+<p>
+
+<h1>Comments</h1>
+
+Use in conjunction with the Woods carbohydrate forcefield and Cornell et al 
+forcefield. The link input file is:
+
+R-GUANOSINE-with 5'-0 group and 3'-OH group<br>
+A-D-MANNO- terminal residue, hf/6-31g* esp<br>
+pyrofosfat opt. X-ray, RESP charges<br>
+link file information:<br>
+<pre>
+GDP-Mannose
+
+GUA      0gua.dat
+PYR      0pyr.dat
+MA       0ma.dat
+
+DU
+    1    1    1    1    1
+gdp-mannose
+O   0    0    1    3    0
+GUA 2PYR 2MA  2
+
+QUIT
+</pre>
+
+
+<br>
+<hr>
+<center>
+[ <a href="../index.html">APD Home</a> ] [ <a href="../submit.html">Submit Parameters</a> ] [ <a href="http://www.amber.ucsf.edu/amber/amber.html">Amber Home</a> ] [ <a href="http://amber.ch.ic.ac.uk/amber.html">UK Mirror</a> ] [ <a href="http://pharmacy.man.ac.uk">Pharmacy Home</a> ] [ <a href="mailto:r.a.bryce@man.ac.uk">Contact</a> ]
+</center>
+
+<hr>
+Last modified 
+Fri Jun 29 17:44:33 BST 2001
+<br>
+
+
+</HTML>
+

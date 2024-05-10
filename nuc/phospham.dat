@@ -1,0 +1,48 @@
+PARM94 for DNA, RNA and prot. modified for amidates. Use 1-4 scee 1.2.
+Dec,97
+MASS
+NS 14.01                             sp3 N in amidates 
+
+BOND
+CT-NS  320.0    1.440       phosphoramidates 
+H -NS  434.0    1.000       phosphoramidates (ab inito opt)
+NS-P   230.0    1.710       PHOSPHORAMIDATE
+
+ANGLE
+CT-CT-NS    50.0      109.50    phosphoramidates
+H1-CT-NS    50.0      109.50    phosphoramidates 
+CT-NS-H     35.0      109.50    phosphoramidates 
+CT-NS-P    100.0      118.00    phosphoramidates (ab initio geom. data)
+H -NS-P     40.0      109.50    phosphoramidates
+NS-P -OS    45.0      100.50    phosphoramidates (ab initio geom. data)
+O2-P -NS   100.0      108.23    phosphoramidates (ab initio geom. data) 
+H1-CT-N3    50.0      109.50    model mol with NH3+
+H -NS-H     35.0      109.50    model mol with NH2
+
+DIHEDRAL
+X -NS-P -X    6    0.75          0.0             3.        
+phosphoramidates 
+X -CT-NS-X    6    1.00          0.0             3.        
+phosphoramidates 
+OS-CT-CT-NS   1    0.14          0.0            -3.        
+phosphoramidates
+OS-CT-CT-NS   1    0.00          0.0             2.        
+phosphoramidate
+NS-P -OS-CT   1    0.25          0.0            -3.        
+phosphoramidates
+NS-P -OS-CT   1    0.60          0.0             2.        
+phosphoramidate
+CT-NS-P -OS   1    0.125         0.0            -3.
+CT-NS-P -OS   1    0.60          0.0             2.        
+H -NS-P -OS   1    0.125         0.0            -3.
+H -NS-P -OS   1    0.60          0.0             2.
+
+IMPROPER
+CT-P -NS-H          0.00         180.0         2.            don't
+need,N-sp3
+
+NONB      RE
+  NS          1.8750  0.1700             OPLS
+
+END
+NS more like N3
