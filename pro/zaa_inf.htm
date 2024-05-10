@@ -1,0 +1,68 @@
+
+<HTML>
+<title>AMBER Parameter Database</title>
+<body BGCOLOR="ffffff">
+
+<h2>Contributors</h2>
+<a href="mailto:anselm.horn@fau.de">Anselm Horn</a><br>
+Institut für Biochemie,
+Friedrich-Alexander-Universität Erlangen-Nürnberg Germany
+<br>
+
+
+<h2>Reference</h2>
+A.H.C. Horn
+<i>J. Mol. Model.</i> <b>2014</b> 20:2478<br>
+DOI: 10.1007/s00894-014-2478-z<br>
+<b>
+A consistent force field parameter set for zwitterionic amino acid residues
+</b><br>
+Isolated amino acids play an important role in biochemistry and are therefore an interesting object of study. Atomistic molecular dynamics
+(MD) simulations can provide a high-resolution picture of the dynamic features of these species, especially in their biological environment.
+Unfortunately, most standard force field packages lack libraries for isolated amino acids in their zwitterionic form. Although several studies have used ad-hoc parameterizations for single amino acids, a consistent force-field parameter set for these molecules is still missing. Here, we present such a parameter library derived from the widely used parm99SB set from the AMBER program package. The parameter derivation for all 20 proteinogenic amino acids transparently followed established procedures with histidine treated in three different protonation states. All amino acids were subjected to MD simulations in four different forms for comparison: zwitterionic, N-teminally capped with acetyl, C-terminally capped with N-methyl, and capped at both termini. Simulation results show similarities between the different forms. Five zwitterionic amino acids-arginine, glutamate, glycine, phenylalanine, leucine-were simulated in a protein environment. Proteins and ligands generally retained their initial structure. The new parameter set will thus facilitate future atomistic simulations of these species.
+<p>
+
+<h1>Comments</h1>
+
+The names of the zwitterionic amino acid residues are defined to be the one-letter code for the
+amino acid preceded by the letter Z. Thus ZA means alanine in zwitterionic form, ZC cysteine
+and so on. For the three protonation states of histidine, the following names were defined: ZHE
+designates the zwitterionic histidine protonated at NE, ZHD is ND-protonated, and ZHP is doubly
+protonated.
+
+If you want to use the the parameters with an existing stucture from a pdb file, make sure
+that the atom names in the input pdb file correspond to the ones in the
+library file zaa.off.
+Please note that the zaa.off also contains the additional improper torsion and
+angle parameters, so only this single file needs to be loaded into leap.
+
+The following code snipped for tleap shows how to setup a zwitterionic tryptophane residue:
+<pre>
+# -------------------
+# Start of leap input
+#
+# Load perm99SB parameter set
+source leaprc.ff99SB
+# Load zwitterionic amino acids parameter set
+loadoff zaa.off
+zwitter = sequence { ZW }
+saveamberparm zwitter ZW.top ZW.crd
+savepdb zwitter ZW.pdb
+#
+# End of leap input
+# ------------------
+</pre>
+<br>
+<hr>
+<center>
+[ <a href="../index.html">APD Home</a> ] [ <a href="../submit.html">Submit Parameters</a> ] [ <a href="http://www.amber.ucsf.edu/amber/amber.html">Amber Home</a> ] [ <a href="http://amber.ch.ic.ac.uk/amber.html">UK Mirror</a> ] [ <a href="http://pharmacy.man.ac.uk">Pharmacy Home</a> ] [ <a href="mailto:r.a.bryce@man.ac.uk">Contact</a> ]
+</center>
+
+<hr>
+Last modified 
+17/03/2015 
+<br>
+
+
+</HTML>
+

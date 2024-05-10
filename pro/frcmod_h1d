@@ -1,0 +1,23 @@
+# Parameters for HIS(ND1)-PO2(OH) : H1D; N.Homeyer, A.H.C.Horn, H.Lanig, H.Sticht, J. Mol. Model., in press
+BOND
+NA - P    250.0   1.840
+OH - P    525.0   1.610
+
+ANGLE
+CC - NA - P   76.7   125.10
+CR - NA - P   76.7   125.10
+NA - P - O2   42.0   102.38
+NA - P - OH   42.9   102.38
+O2 - P - OH  140.0   108.23
+HO - OH - P  140.0   108.50
+ 
+DIHE
+CC-NA-P-O2    1    0.24         0.0        3.0
+CR-NA-P-O2    1    0.00         0.0        3.0
+CC-NA-P-OH    1    1.45         0.0        2.0
+CR-NA-P-OH    1    0.00         0.0        2.0
+
+IMPROPER
+CR-CC-NA-P         1.10          180.0       2.0
+
+

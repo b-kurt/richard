@@ -1,0 +1,56 @@
+
+<HTML>
+<title>AMBER Parameter Database</title>
+<body BGCOLOR="ffffff">
+
+<h2>Contributors</h2>
+Antistio Alviz-Amador<sup>a</sup>, Rodrigo Galindo-Murillo<sup>b</sup>, Rafael Pineda-Alemán<sup>a</sup>, Humberto Pérez-González<sup>a</sup>, Erika Rodríguez-Cavallo<sup>a</sup>, Ricardo Vivas-Reyes<sup>c</sup> and Darío Méndez-Cuadro*<sup>a</sup><br></i>
+<i>a. Analytical Chemistry and Biomedicine Group. Exact and Natural Sciences Faculty. University of Cartagena. Cartagena-Colombia<br>
+	b.   Department of Medicinal Chemistry. University of Utah. Salt Lake City, Utah. USA<br>
+c. Grupo de Química Cuántica y Teórica. Facultad de Ciencias Exactas y Naturales. Universidad de Cartagena. Cartagena-Colombia<br></i>
+
+<h2>Reference</h2>
+Antistio Alviz-Amador, Rodrigo Galindo-Murillo, Rafael Pineda-Alemán, Humberto Pérez-González, Erika Rodríguez-Cavallo, Ricardo Vivas-Reyes and Darío Méndez-Cuadro*.<br> 
+<i>Journal of Molecular Graphics and Modelling</i><b> 2019</b> 86:1-10. <br> https://doi.org/10.1016/j.jmgm.2018.11.001<p>
+
+<b>
+4-HNE carbonylation induces local conformational changes on bovine serum albumin and thioredoxin. A molecular dynamics study
+</b><br>
+
+4-hydroxy-2-nonenal (4-HNE) is the main end product of peroxidation in lipids, capable of introduce carbonyl groups to nucleophilic amino acids via Michael additions and alter protein function. It has been reported that 4-HNE protein carbonylation is associated with intracellular protein aggregation, the pathogenesis of neurodegenerative and metabolic diseases and yet it is unclear how the carbonylation affects the protein structure and dynamics at the atomic level. Here, we analysis the structural effects of 4-HNE modification through formation of Michael adducts of Cys-4HNE, His-4HNE and Lys-4HNE on Serum Albumin (BSA) and Thioredoxin (TRX). Since both proteins have experimental evidence to possess 4-HNE-modifications on cysteine, histidine and lysine residues, extended molecular dynamics simulations were performed with AMBER to study the carbonylation effects in the structure of these proteins. BSA is the main protein of plasma while TRX is an important antioxidant enzyme. Results showed local changes and alteration in the conformational stability, folding and flexibility after including the 4-HNE modification. DSSP analysis showed important structural modifications as a consequence of the inclusion of the modified residues. Analysis of the computed trajectories suggests that 4-HNE decreases stability, increases local flexibility and produced modest unfolding on both tested proteins. Finally, all the systems evaluated shown an increase in the lipophilic potential and a modest decrease in the electrostatic potential in BSA but an increase in TRX.
+
+<p>
+
+<h1>Comments</h1>
+
+Parameters were created by the PhD student Antistio Alviz-Amador (aalviza@unicartagena.edu.co) guided by the teaching staff  Humberto Pérez-González (hperezg@unicartagena.edu.co), Rodrigo Galindo-Murillo (rodrigo.galindo@utah.edu),  Ricardo Vivas-Reyes (rvivasr@unicartagena.edu.co) and Darío Méndez-Cuadro (dmendezc@unicartagena.edu.co). <p>
+Parameterization of new non-standard amino acid residues (Lysine, Histidine and Cysteine) modified with 4-HNE were developmet with the AmberTools2016 packages. For the generation of parameters by analogy in Gaff force-fields antechamber, parmcal, parmchk programs were used. Parameters and topology files were created with the program Leap, which has versions called tleap (without graphical interface) and xleap (with graphical interface). The creation of parameters was performed thus:<p>
+Step 1. Draw the 4-HNE molecules bound to the amino acids using GaussView 05 <p>
+Step  2. Adducts were optimized using the theoretical level  #HF/6-31G* SCF=tight test Pop=MK iop (6/33=2) iop(6/42=6) opt  using  Gaussian 09 or Spartan and the RESP charges were calculated in web server:  http://upjv.q4md-forcefieldtools.org/REDS/<p>
+Step 3. The file.frcmod parameters were built using the lines:<p>
+> antechamber -i init-gau.log -fi gout -o u00.prepin -fo prepi -c resp -s 2 -rn U00 -at gaff -nc 0<br>
+> parmchk -i u00.prepin -f prepi -o u00.frcmod<p>
+Step 4.   Construction of library files was performed with Leap program following lines:<p>
+source leaprc.gaff<br>
+loadamberparams u00.frcmod<br>
+loadamberprep u00.frcmod<br>
+list<br>
+Desc U00<br>
+Saveoff U00 u00.lib<p>
+
+
+
+<br>
+<hr>
+<center>
+[ <a href="../index.html">APD Home</a> ] [ <a href="../submit.html">Submit Parameters</a> ] [ <a href="http://www.amber.ucsf.edu/amber/amber.html">Amber Home</a> ] [ <a href="http://amber.ch.ic.ac.uk/amber.html">UK Mirror</a> ] [ <a href="http://pharmacy.man.ac.uk">Pharmacy Home</a> ] [ <a href="mailto:r.a.bryce@man.ac.uk">Contact</a> ]
+</center>
+
+<hr>
+Last modified 
+17 Sep 2012
+<br>
+
+
+</HTML>
+

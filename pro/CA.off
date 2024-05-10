@@ -1,0 +1,38 @@
+!!index array str
+ "YC"
+!entry.YC.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "YC" "YC" 0 1 131072 1 47   1.500
+!entry.YC.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "YC" "YC" 0 -1 0.0
+!entry.YC.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.YC.unit.childsequence single int
+ 2
+!entry.YC.unit.connect array int
+ 0
+ 0
+!entry.YC.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+!entry.YC.unit.name single str
+ "YC"
+!entry.YC.unit.positions table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+!entry.YC.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 0 0 0 0 0 0
+!entry.YC.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "YC" 1 2 1 "?" 0
+!entry.YC.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.YC.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.YC.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0

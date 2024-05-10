@@ -1,0 +1,73 @@
+remark goes here
+MASS
+ns 14.010        0.530               same as n  
+
+BOND
+C-ns   372.304  1.422
+c-N    282.464  1.512
+c3-ns  328.70   1.462       same as c3-n 
+ns-hn  403.20   1.013       same as hn-n 
+ns-c   427.60   1.379       same as c -n 
+
+ANGLE
+c3-ns-hn   45.800     117.680   same as c3-n -hn
+c3-ns-c    63.390     120.690   same as c -n -c3
+h1-c3-ns   49.840     108.880   same as h1-c3-n 
+ns-c -o    74.220     123.050   same as n -c -o 
+ns-c -c3   66.790     115.180   same as c3-c -n 
+hn-ns-c    48.330     117.550   same as c -n -hn
+c -c3-ns   67.000     109.060   same as c -c3-n 
+ns-c3-c3   65.910     111.610   same as c3-c3-n 
+O-C-ns     81.645     120.930
+C-ns-c3    54.751     114.310
+C-ns-hn    68.788     119.900
+CX-C-ns    68.543     121.530
+c3-c-N     68.543     121.530
+o-c-N      81.645     120.930
+c-N-H      54.751     114.310
+c-N-CX     68.788     119.900
+
+DIHE
+c3-ns-c -o    1    2.500       180.000           2.000      same as X -c -n -X 
+c3-ns-c -c3   1    0.000         0.000          -2.000      same as c3-c -n -c3
+c3-ns-c -c3   1    1.500       180.000           1.000      same as c3-c -n -c3
+h1-c3-ns-hn   1    0.000         0.000           2.000      same as X -c3-n -X 
+h1-c3-ns-c    1    0.000         0.000           2.000      same as X -c3-n -X 
+hn-ns-c -o    1    2.500       180.000          -2.000      same as hn-n -c -o 
+hn-ns-c -o    1    2.000         0.000           1.000      same as hn-n -c -o 
+hn-ns-c -c3   1    2.500       180.000           2.000      same as X -c -n -X 
+c -c3-ns-c    1    0.850       180.000          -2.000      same as c -n -c3-c 
+c -c3-ns-c    1    0.800         0.000           1.000      same as c -n -c3-c 
+c -c3-ns-hn   1    0.000         0.000           2.000      same as X -c3-n -X 
+c -ns-c3-c3   1    0.500       180.000          -4.000      same as c3-c3-n -c 
+c -ns-c3-c3   1    0.150       180.000          -3.000      same as c3-c3-n -c 
+c -ns-c3-c3   1    0.000         0.000          -2.000      same as c3-c3-n -c 
+c -ns-c3-c3   1    0.530         0.000           1.000      same as c3-c3-n -c 
+hn-ns-c3-c3   1    0.000         0.000           2.000      same as X -c3-n -X 
+X -C -ns-X    1    0.000         0.0            -4.    phi'
+X -C -ns-X    1    0.800         0.0            -3.
+X -C -ns-x    1    1.800         0.0            -2.
+X -C -ns-x    1    2.000         0.0             1.
+X -c -N -X    1    0.000         0.0            -4.    phi'
+X -c -N -X    1    0.800         0.0            -3.
+X -c -N -x    1    1.800         0.0            -2.
+X -c -N -x    1    2.000         0.0             1.
+X -ns-c3-X    1    0.500       180.000          -2 
+X -ns-c3-X    1    0.000         0.000           2
+X -ns-c3-X    1    0.530         0.000           2
+
+IMPROPER
+c -c3-ns-hn         1.1          180.0         2.0          Using default value
+c3-ns-c -o         10.5          180.0         2.0          General improper torsional angle (2 general atom types)
+c3-cd-cc-nc         1.1          180.0         2.0          Using default value
+cc-h4-cd-na         1.1          180.0         2.0          Using default value
+h5-na-cd-nc         1.1          180.0         2.0          Using default value
+c3-cd-na-cd         1.1          180.0         2.0          Using default value
+C*-CN-CB-CA	    1.1		 180.0	       2.0
+NA-CA-CN-CB	    1.1		 180.0	       2.0
+
+NONBON
+  ns          1.8240  0.1700             same as n  
+
+
+

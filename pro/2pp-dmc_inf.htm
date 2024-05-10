@@ -1,0 +1,56 @@
+
+<HTML>
+<title>AMBER Parameter Database</title>
+<body BGCOLOR="ffffff">
+
+<h2>Contributors</h2>
+Antistio Alviz-Amador<sup>a</sup>, Rodrigo Galindo-Murillo<sup>b</sup>, Humberto Pérez-González<sup>a</sup>, Erika Rodríguez-Cavallo<sup>a</sup>, Ricardo Vivas-Reyes<sup>c</sup> and Darío Méndez-Cuadro*<sup>a</sup><br></i>
+<i>a. Analytical Chemistry and Biomedicine Group. Exact and Natural Sciences Faculty. University of Cartagena. Cartagena-Colombia<br>
+	b.   Department of Medicinal Chemistry. University of Utah. Salt Lake City, Utah. USA<br>
+c. Grupo de Química Cuántica y Teórica. Facultad de Ciencias Exactas y Naturales. Universidad de Cartagena. Cartagena-Colombia<br></i>
+
+<h2>Reference</h2>
+Antistio Alviz-Amador, Rodrigo Galindo-Murillo, Humberto Pérez-González, Erika Rodríguez-Cavallo, Ricardo Vivas-Reyes and Darío Méndez-Cuadro*.<br> 
+<i>Journal of Chemical Information and Modeling </i><b> 2019</b> <br> https://doi.org/10.1021/acs.jcim.9b00772<p>
+
+<b>
+Effect of 4-HNE Modification on ZU5-ANK Domain and the Formation of Their Complex with ß-Spectrin: A Molecular Dynamics Simulation 
+</b><br>
+
+4-Hydroxy-2-nonenal (4HNE), a major secondary product of lipid peroxidation, has been associated with a number of disease states involving oxidative stress. Despite the recognized importance of post-translational modification of proteins by products such as 4HNE, little is known of the modification of ZU5-ANK domain of ankyrin R and the effect of formation of their complex with ß-Spectrin at atomic level and its analysis by molecular dynamics simulation. We present a study based on molecular dynamics simulations of nine 4-HNE modified residues of the ZU5-ANK ankyrin domain with ß-spectrin and their binding energy profiles. In this study is presented the proposed chemical structure of an arginine-pyrrole adduct furthermore of lysine and histidine Michael adducts on ZU5-ANK of ankyrin, these latter already previously published. Results show that 4-HNE induced local conformational changes over all protein systems evaluated, increased mobility in the modification sites, and localized structural changes between the positively charged patch of the ZU5-ANK domain. Here we add the scientific community the parameters in the AMBER GAFF force field of arginine-pyrrole adduct.
+
+<p>
+
+<h1>Comments</h1>
+
+Parameters were created by the PhD student Antistio Alviz-Amador (aalviza@unicartagena.edu.co) guided by the teaching staff  Humberto Pérez-González (hperezg@unicartagena.edu.co), Rodrigo Galindo-Murillo (rodrigo.galindo@utah.edu),  Ricardo Vivas-Reyes (rvivasr@unicartagena.edu.co) and Darío Méndez-Cuadro (dmendezc@unicartagena.edu.co). <p>
+Parameterization of new non-standard amino acid residue of Arginine modified with 4-HNE was developed with the AmberTools2016 packages. For the generation of parameters by analogy in Gaff force-fields antechamber, parmcal, parmchk programs were used. Parameters and topology files were created with the program Leap, which has versions called tleap (without graphical interface) and xleap (with graphical interface). The creation of parameters was performed thus:<p>
+Step 1. Draw the 4-HNE molecules bound to the amino acids using GaussView 05 <p>
+Step  2. Adducts were optimized using the theoretical level  #HF/6-31G* SCF=tight test Pop=MK iop (6/33=2) iop(6/42=6) opt  using  Gaussian 09 or Spartan and the RESP charges were calculated in web server:  http://upjv.q4md-forcefieldtools.org/REDS/<p>
+Step 3. The file.frcmod parameters were built using the lines:<p>
+> antechamber -i init-gau.log -fi gout -o u03.prepin -fo prepi -c resp -s 2 -rn U03 -at gaff -nc 0<br>
+> parmchk -i u03.prepin -f prepi -o u03.frcmod<p>
+Step 4.   Construction of library files was performed with Leap program following lines:<p>
+source leaprc.gaff<br>
+loadamberparams u03.frcmod<br>
+loadamberprep u03.frcmod<br>
+list<br>
+Desc U03<br>
+Saveoff U03 u03.lib<p>
+
+
+
+<br>
+<hr>
+<center>
+[ <a href="../index.html">APD Home</a> ] [ <a href="../submit.html">Submit Parameters</a> ] [ <a href="http://www.amber.ucsf.edu/amber/amber.html">Amber Home</a> ] [ <a href="http://amber.ch.ic.ac.uk/amber.html">UK Mirror</a> ] [ <a href="http://pharmacy.man.ac.uk">Pharmacy Home</a> ] [ <a href="mailto:r.a.bryce@man.ac.uk">Contact</a> ]
+</center>
+
+<hr>
+Last modified 
+17 Sep 2012
+<br>
+
+
+</HTML>
+

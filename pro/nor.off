@@ -1,0 +1,159 @@
+!!index array str
+ "NOR"
+!entry.NOR.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "N" "N" 0 1 131072 1 7 -0.392257
+ "H1" "H" 0 1 131072 2 1 0.343035
+ "H2" "H" 0 1 131072 3 1 0.343035
+ "H3" "H" 0 1 131072 4 1 0.343035
+ "CA" "CT" 0 1 131072 5 6 -0.021774
+ "HA" "H1" 0 1 131072 6 1 0.115382
+ "CB" "CT" 0 1 131072 7 6 -0.065490
+ "HB2" "HC" 0 1 131072 8 1 0.070164
+ "HB3" "HC" 0 1 131072 9 1 0.070164
+ "CG" "CT" 0 1 131072 10 6 -0.056978
+ "HG2" "HC" 0 1 131072 11 1 0.053393
+ "HG3" "HC" 0 1 131072 12 1 0.053393
+ "CD" "CT" 0 1 131072 13 6 0.057470
+ "HD2" "HP" 0 1 131072 14 1 0.105172
+ "HD3" "HP" 0 1 131072 15 1 0.105172
+ "NE" "N3" 0 1 131072 16 7 -0.305893
+ "HE1" "H" 0 1 131072 17 1 0.325146
+ "HE2" "H" 0 1 131072 18 1 0.325146
+ "HE3" "H" 0 1 131072 19 1 0.325146
+ "C" "C" 0 1 131072 20 6 0.773198
+ "O" "O" 0 1 131072 21 8 -0.565659
+!entry.NOR.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "N" "N" 0 -1 0.0
+ "H1" "H" 0 -1 0.0
+ "H2" "H" 0 -1 0.0
+ "H3" "H" 0 -1 0.0
+ "CA" "CT" 0 -1 0.0
+ "HA" "HA" 0 -1 0.0
+ "CB" "CT" 0 -1 0.0
+ "HB2" "HC" 0 -1 0.0
+ "HB3" "HC" 0 -1 0.0
+ "CG" "CT" 0 -1 0.0
+ "HG2" "HC" 0 -1 0.0
+ "HG3" "HC" 0 -1 0.0
+ "CD" "CT" 0 -1 0.0
+ "HD2" "HP" 0 -1 0.0
+ "HD3" "HP" 0 -1 0.0
+ "NE" "N3" 0 -1 0.0
+ "HE1" "H" 0 -1 0.0
+ "HE2" "H" 0 -1 0.0
+ "HE3" "H" 0 -1 0.0
+ "C" "C" 0 -1 0.0
+ "O" "O" 0 -1 0.0
+!entry.NOR.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.NOR.unit.childsequence single int
+ 2
+!entry.NOR.unit.connect array int
+ 0
+ 20
+!entry.NOR.unit.connectivity table  int atom1x  int atom2x  int flags
+ 1 2 1
+ 1 3 1
+ 1 4 1
+ 1 5 1
+ 5 6 1
+ 5 7 1
+ 5 20 1
+ 7 8 1
+ 7 9 1
+ 7 10 1
+ 10 11 1
+ 10 12 1
+ 10 13 1
+ 13 14 1
+ 13 15 1
+ 13 16 1
+ 16 17 1
+ 16 18 1
+ 16 19 1
+ 20 21 1
+!entry.NOR.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+ "R" 1 "A" 2
+ "R" 1 "A" 3
+ "R" 1 "A" 4
+ "R" 1 "A" 5
+ "R" 1 "A" 6
+ "R" 1 "A" 7
+ "R" 1 "A" 8
+ "R" 1 "A" 9
+ "R" 1 "A" 10
+ "R" 1 "A" 11
+ "R" 1 "A" 12
+ "R" 1 "A" 13
+ "R" 1 "A" 14
+ "R" 1 "A" 15
+ "R" 1 "A" 16
+ "R" 1 "A" 17
+ "R" 1 "A" 18
+ "R" 1 "A" 19
+ "R" 1 "A" 20
+ "R" 1 "A" 21
+!entry.NOR.unit.name single str
+ "NOR"
+!entry.NOR.unit.positions table  dbl x  dbl y  dbl z
+ 1.532877 -2.274196 -0.159741
+ 1.775668 -2.178557 0.824922
+ 1.023444 -3.136560 -0.299235
+ 2.406798 -2.357020 -0.665367
+ 0.760659 -1.043729 -0.564121
+ 0.767526 -1.000082 -1.644482
+ -0.667582 -1.177641 -0.003587
+ -1.119397 -2.071580 -0.424556
+ -0.593806 -1.317191 1.070065
+ -1.570627 0.032136 -0.301791
+ -1.136855 0.932020 0.120963
+ -1.653803 0.178846 -1.375229
+ -2.959362 -0.198465 0.297110
+ -3.459325 -1.049314 -0.142652
+ -2.921207 -0.329564 1.368903
+ -3.864053 0.988889 0.054708
+ -3.503921 1.837173 0.474153
+ -4.000770 1.174254 -0.931206
+ -4.783324 0.833729 0.453109
+ 1.534185 0.104305 0.115064
+ 1.917051 -0.114529 1.233582
+!entry.NOR.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 0 20 0 0 0 0
+!entry.NOR.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "NOR" 1 22 1 "p" 0
+!entry.NOR.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.NOR.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.NOR.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0

@@ -1,0 +1,18 @@
+# Parameters for HIS(NE2)-PO3 : H2E; N.Homeyer, A.H.C.Horn, H.Lanig, H.Sticht, J. Mol. Model., in press 
+BOND
+NA - P    250.0   1.840
+
+ANGLE
+CW - NA - P   76.7   125.10
+CR - NA - P   76.7   125.10
+NA - P - O2   42.9   102.38
+ 
+DIHE
+CW-NA-P-O2    1    0.24         0.0        3.0
+CR-NA-P-O2    1    0.00         0.0        3.0
+
+IMPROPER
+CR-CW-NA-P        1.10          180.0       2.0 
+
+
+
