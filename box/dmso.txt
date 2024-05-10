@@ -1,0 +1,26 @@
+
+Dear Dr. Bryce,
+
+We have developed a DMSO box and we thought  that it would be a good idea to
+be included in the AMBER Parameter Database. Please find attached the FRCMOD
+and OFF files.
+
+The parameters for the DMSO unit were taken from:
+Thomas Fox and Peter A. Kollman (J. Phys. Chem. B., 1998, 102, 8070-8079)
+
+After the initial unit was prepared and the atomic charges calculated the
+DMSO box was built. After minimisation and 800 ps dynamic equilibration
+(density:1.0942g/ml) the equilibrated box (.pdb file) was read back in leap.
+The periodic box was constructed using the setbox <unit> center command. The
+library and topology were saved. Then the box dimensions in the library file
+were manually edited based on the box dimensions of the equilibrated .rst
+file.
+
+I hope that the information I have provided is sufficient. If more data is
+needed please feel free to contact me.
+
+Best wishes,
+
+John
+
+

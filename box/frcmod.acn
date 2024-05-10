@@ -1,0 +1,18 @@
+      acetonitrile united atom 
+MASS
+EE     15.03     0.00
+ED     12.01     0.00
+EN     14.01     0.00
+
+BOND
+ED-EN      427.000     1.16000
+ED-EE      469.000     1.46000
+
+ANGL
+EE-ED-EN     50.000  180.000 
+
+NONB
+  EE       2.11860    0.18700
+  ED       2.04850    0.13000
+  EN       1.79590    0.15000
+

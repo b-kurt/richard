@@ -1,0 +1,15 @@
+      chcl2 united atom OPLS
+MASS
+CG     14.00     0.00
+LG     35.50     0.00 
+
+BOND
+LG-CG      367.000     1.77000           
+
+ANGL
+LG-CG-LG     77.000  111.820 
+
+NONB
+  LG       1.90820    0.30000   
+  CG       2.13270    0.11800
+
